@@ -5,7 +5,7 @@
 }
 body
 {
-    font-family:sans-serif;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #nav-bar
 {
@@ -15,7 +15,7 @@ body
 }
 .navbar
 {
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    background-image: linear-gradient(to right,#379683,#5cdb95);
     padding: 0 !important;
 }
 .navbar-brand
@@ -29,15 +29,15 @@ body
 }
 .navbar-nav li a
 {
-    color: #fff !important;
-    font-weight: 600;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 500;
     float: right;
     text-align: left;
     
 }
 .fa-bars
-{
-    color: #fff;
+{   
+    color: rgb(0, 0, 0);
     font-size: 30px !important;
 }
 .navbar-toggler
@@ -47,7 +47,113 @@ body
 /* BANNER SECTION */
 #banner
 {
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
-    color: #fff;
+    background-image: linear-gradient(to right, #379683,#5cdb95 );
+    color: rgb(0, 0, 0);
     padding-top: 5%;
+}
+.promo-title
+{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.play-btn
+{
+    width: 45px;
+    margin: 20px;
+}
+#banner a
+{
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+}
+.bottom-img
+{
+    width: 100%;
+}
+#services
+{
+    padding: 80px 0;
+}
+.service-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+.services
+{
+    padding: 20px;
+}
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before
+{
+    content: '';
+    background: #00c29e;
+    height: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #00c29e;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#services .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #379683,#5cdb95 );
+}
+#about-us
+{
+    background:#e9fdf9;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#about-us ul
+{
+    margin:10px 0 ;
+
+}
+#about-us ul
+{
+    margin-left: 20px;
+}
+#testimonials
+{
+    margin: 50px 0;
+}
+.testimonials
+{
+    border-left: 4px solid #379683;
+    margin-bottom: 50px;
+}
+.testimonials img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details
+{
+    display: inline-block;
+    font-size: 12px;
 }
